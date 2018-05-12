@@ -2,6 +2,7 @@
 
 ## app.js for visualization 
 ```js
+//set up svgsize and margin
 var svgWidth = 960;
 var svgHeight = 500;
 
@@ -104,12 +105,9 @@ var svgHeight = 500;
                 .attr("font-size", "15px")
                 .text("Houseold with health insurance %");      
 
-    // for (var i=0;i<response.length;i++){
-    //   console.log(response[i].state_abb);
-    //   console.log(i);
-
-    // }
   });
   ```
+## final html looks like this
+<img src="https://github.com/yizhiyin86/d3.js/blob/master/webpagescreen.png" alt="a scatter plot Percentage of Household above poverty rate and percentage of household with health insurance ">
 
 
